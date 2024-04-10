@@ -1527,6 +1527,7 @@ var cnRegReplace = new Map([
     [/^You use your Illusion knowledge to trick the merchant and give him (.+) fake stones. The merchant falls for it!$/, '你用你的幻觉知识欺骗商人并给了他 $1 颗假石头。 商人上当了！'],
     [/^You are gaining (.+) elves per second$/, '你每秒获得 $1 精灵'],
     [/^(.+)Welcome back to Magic Research! \n(.+)\n(.+)\*\*You obtained (.+):timepiece: Time Pieces!  Time Pieces allow you to make time pass faster for a duration.  You can do so from the left side menu! \*\*$/, '$1欢迎回到魔法研究!\n\n \*\*您获得了 $4:时间碎片！时间碎片允许你在一段时间内让时间过得更快。您可以从左侧菜单中这样做!\*\*。'],
+    [/^To Next Level: (.+) Exp (.+)$/, '到下一级：$1 经验值 $2'],
     [/^(.+) You defeated Slime!$/, '$1 你击败了 史莱姆！'],
     [/^(.+) You defeated Mouse!$/, '$1 你击败了 老鼠！'],
     [/^(.+) You defeated Angry Sheep!$/, '$1 你击败了 愤怒的羊！'],
